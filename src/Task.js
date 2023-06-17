@@ -70,8 +70,7 @@ export default function Task() {
             </div>
             <h3>Assign User</h3>
             <select name="Plan user" className="task-desc">
-              <option value="volvo">Volvo</option>
-              <option value="saab">Saab</option>
+              <option value="volvo">sathish</option>
             </select>
             <div className="button">
               <button id="button-1" onClick={() => handleCancel()}>
