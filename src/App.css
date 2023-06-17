@@ -1,0 +1,93 @@
+.App {
+  text-align: center;
+}
+.task-container {
+  margin: auto;
+  width: 500px;
+  height: 400px;
+  /* border: 1px solid; */
+  padding: 15px;
+}
+.task-1 {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 500px;
+  padding: 10px;
+}
+.task-container > div > h3 {
+  font-size: larger;
+  opacity: 0.6;
+  margin-right: 350px;
+}
+.task-1 > button {
+  cursor: pointer;
+}
+.task-desc {
+  width: 450px;
+  height: 35px;
+}
+.date {
+  display: flex;
+  justify-content: space-around;
+}
+.date-input {
+  width: 205px;
+  height: 35px;
+}
+b {
+  font-size: larger;
+  opacity: 0.8;
+}
+
+.button {
+  padding: 10px;
+  display: flex;
+  justify-content: flex-end;
+}
+.button > button {
+  padding: 10px;
+  margin: 10px;
+  width: 100px;
+  border: none;
+  cursor: pointer;
+  border-radius: 30px;
+  font-size: larger;
+}
+#button-2 {
+  background-color: blue;
+  color: white;
+}
+.card {
+  box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+.task-card {
+  width: 500px;
+  margin: auto;
+  padding: 50px;
+  display: flex;
+  justify-content: flex-start;
+  box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+.fa-user {
+  font-size: 50px;
+  color: blueviolet;
+}
+.fa-check {
+  font-size: 25px;
+  margin-left: 20px;
+  color: green;
+}
+.fa-pen {
+  font-size: 20px;
+  margin-left: 90px;
+  cursor: pointer;
+  color: blue;
+}
+.fa-trash {
+  font-size: 20px;
+  margin-left: 20px;
+  cursor: pointer;
+  color: red;
+}
