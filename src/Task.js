@@ -118,8 +118,9 @@ const CompleteTask = ({
         <spam>{arr[0] ? arr[0] : "-- --"}</spam>
       </div>
       <i class="fa-solid fa-pen" onClick={() => setClick(false)}></i>
-      <i class="fa-solid fa-check"></i>
+     
       <i class="fa-sharp fa-solid fa-trash" onClick={() => handleDelete()}></i>
+   <i class="fa-solid fa-check"></i>
     </div>
   );
 };
