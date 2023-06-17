@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="App">
       <div className="task-1">
-        <div>task 1</div>
+        <div>task</div>
         <button onClick={() => setClick(true)}>+</button>
       </div>
       {click ? <Task /> : ""}
